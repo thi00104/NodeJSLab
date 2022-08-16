@@ -1,1 +1,16 @@
-[{"id":"12345","title":"A Book","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"This is an awesome book!","price":"19"},{"title":"Pen","imageUrl":"https://www.montblanc.com/variants/images/22527730565448096/A/w570.jpg","description":"A pen","price":"20","id":"0.9457728771615084"},{"title":"","imageUrl":"","description":"","price":"","id":"0.013311810480384878"},{"title":"","imageUrl":"","description":"","price":"","id":"0.23503291583915265"},{"title":"","imageUrl":"","description":"","price":"","id":"0.3162283033527391"},{"title":"","imageUrl":"","description":"","price":"","id":"0.8265237369559251"},{"title":"","imageUrl":"","description":"","price":"","id":"0.8045577048048818"}]
+[
+  {
+    "id": "12345",
+    "title": "A Book",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "This is an awesome book!",
+    "price": "19"
+  },
+  {
+    "title": "Pen",
+    "imageUrl": "https://www.montblanc.com/variants/images/22527730565448096/A/w570.jpg",
+    "description": "A pen",
+    "price": "20",
+    "id": "0.9457728771615084"
+  }
+]
