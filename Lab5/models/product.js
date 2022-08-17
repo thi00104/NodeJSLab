@@ -34,13 +34,7 @@ module.exports = class Product {
     return db.execute("SELECT * FROM products");
   }
 
-  static findById(id, cb) {
-    // getProductsFromFile((products) => {
-    //   // console.log(typeof id);
-    //   // console.log(products);
-    //   const product = products.find((prod) => prod.id === id);
-    //   // console.log(product);
-    //   cb(product);
-    // });
+  static findById(id) {
+    return db.execute("SELECT * FROM products WHERE id = ?", [id]);
   }
 };
