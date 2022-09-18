@@ -1,5 +1,5 @@
 const mongodb = require("mongodb");
-const db = require("../util/database").getDb;
+const getDb = require("../util/database").getDb;
 
 const ObjectId = mongodb.ObjectId;
 class User {
@@ -15,7 +15,16 @@ class User {
 
   static findById(userId) {
     const db = getDb();
-    return db.collection("users").findOne({ _id: ObjectId(userId).next() });
+    return db
+      .collection("users")
+      .findOne({ _id: ObjectId(userId) })
+      .then((user) => {
+        console.log(user);
+        return user;
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }
 }
 
